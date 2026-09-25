@@ -1,12 +1,12 @@
-# 탐정 진구지 사부로: 꿈의 끝에서 — 한국어 패치 v0.8.6
+# 탐정 진구지 사부로: 꿈의 끝에서 — 한국어 패치 v0.8.7
 
 Sega Saturn 일본판의 비공식 한국어 패치입니다. 원본 게임은 포함하지 않으며, 아래 SHA-256과 일치하는 원본 BIN이 필요합니다.
 
-**[v0.8.6 패치 다운로드](https://github.com/lf-idonotknow/Jinguuji-Yume-Saturn-Korean-Patch/releases/tag/v0.8.6)**
+**[v0.8.7 패치 다운로드](https://github.com/lf-idonotknow/Jinguuji-Yume-Saturn-Korean-Patch/releases/tag/v0.8.7)**
 
-릴리스의 **Assets**에서 `Jinguuji-Yume-Saturn-Korean-Patch-v0.8.6.zip`을 받으세요. GitHub가 자동으로 표시하는 `Source code (zip)`은 패치가 아닙니다.
+릴리스의 **Assets**에서 `Jinguuji-Yume-Saturn-Korean-Patch-v0.8.7.zip`을 받으세요. GitHub가 자동으로 표시하는 `Source code (zip)`은 패치가 아닙니다.
 
-## v0.8.6 변경 사항
+## v0.8.7 변경 사항
 
 - 번역을 더 자연스럽게 다듬었습니다.
 
@@ -29,7 +29,7 @@ Sega Saturn 일본판의 비공식 한국어 패치입니다. 원본 게임은 �
 2. 가능하면 아래 방법으로 복사본 BIN의 SHA-256을 확인합니다. 원본 해시와 다르면 적용하지 마세요. 파일 이름만 바꾸어도 판본이 같아지는 것은 아닙니다.
 3. Delta Patcher를 실행해 패치 적용 화면을 엽니다.
 4. **Original file**에 작업 폴더의 BIN 복사본을 선택합니다. CUE를 선택하는 것이 아닙니다.
-5. **XDelta patch**에 동봉한 `Jinguuji-Yume-Saturn-Korean-Patch-v0.8.6.xdelta`를 선택합니다.
+5. **XDelta patch**에 동봉한 `Jinguuji-Yume-Saturn-Korean-Patch-v0.8.7.xdelta`를 선택합니다.
 6. 설정에서 **Checksum validation**은 켜 둡니다. 여기서는 원본을 따로 보관하고 복사본에 적용하므로 **Backup original file**은 끈 상태로 진행합니다. 이 설정에서는 선택한 복사본이 한글판으로 교체됩니다.
 7. **Apply patch**를 누르고 완료될 때까지 기다립니다. 오류가 나면 진행하지 말고 아래 주의사항을 확인하세요.
 8. 적용된 BIN의 이름을 아래 이름으로 바꿉니다. `.bin.bin`처럼 확장자가 두 번 붙지 않도록 주의하세요.
@@ -59,7 +59,7 @@ Tantei_Jinguuji_Saburou-Yume_no_Owari_ni_JAP_KR_DEV.cue
 **패치 적용 후 BIN — 670,080,096바이트**
 
 ```text
-9a6d2d182beb39b6294607cbe36a25b9f62f0e85b2a9219272e2494eb970f73c
+76e21c34db3a831a6b134304dd8c3eeab2d2d823cdfa87d3c5d0501ae8e26d9c
 ```
 
 **동봉 CUE — SHA-256**
@@ -100,7 +100,7 @@ shasum -a 256 "/게임/원본.bin"
 
 현재 누적 한글화 빌드의 대사·메뉴·안내도·선택지 수정, 영상 자막과 잡음 제거 테이프의 한국어 자막을 포함합니다. 스토리상 잡음이 남은 테이프에는 자막을 표시하지 않습니다.
 
-**이 버전은 검수 중인 프리릴리스입니다.** 이전 v0.8.5에서는 사용자가 SAROO 새턴 실기와 MiSTer 동작, 저장·불러오기 후 복귀를 확인했습니다. v0.8.6에 추가한 번역·줄맞춤은 정적으로 검사했으며, 이 새 빌드의 실기 동작과 모든 문구·루트·자막 동기까지 검증을 끝낸 것은 아닙니다.
+**이 버전은 검수 중인 프리릴리스입니다.** 이전 v0.8.5에서는 사용자가 SAROO 새턴 실기와 MiSTer 동작, 저장·불러오기 후 복귀를 확인했습니다. v0.8.7에 추가한 번역·말투 교정은 정적으로 검사했으며, 토르 전송본의 원격 해시도 확인했습니다. 다만 토르 전송은 실행 검증이 아니며, 이 새 빌드의 실기 동작과 모든 문구·루트·자막 동기까지 검증을 끝낸 것은 아닙니다.
 
 원본에 xdelta3 3.1.0으로 패치를 적용해 만든 BIN이 기준 한글판과 크기·SHA-256까지 일치하는 것은 확인했습니다. 이는 패치 적용의 무결성 검증이며, 전체 게임 플레이 완료나 모든 패치 도구·에뮬레이터에서의 실행 검증을 뜻하지 않습니다.
 
